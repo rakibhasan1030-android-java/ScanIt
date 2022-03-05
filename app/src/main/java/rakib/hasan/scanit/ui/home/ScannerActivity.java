@@ -8,6 +8,8 @@ import rakib.hasan.scanit.R;
 
 public class ScannerActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
