@@ -2,6 +2,7 @@ package rakib.hasan.scanit.ui.home;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import rakib.hasan.scanit.R;
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        //binding.scanBtn.setOnClickListener(v -> );
+        binding.scanBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), ScannerActivity.class)));
 
     }
 
